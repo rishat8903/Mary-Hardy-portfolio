@@ -233,3 +233,58 @@ main {
     display: flex;
 }
 
+footer {
+    margin-top: 113px;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    display: flex;
+
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.footer-connect,
+.footer-msg {
+    width: 50%;
+}
+
+.footer-connect {
+    margin-right: 117px;
+}
+
+.footer-connect p {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+footer input[type="text"], footer textarea {
+    width: 461px;
+    padding: 18px 30px;
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+}
+.contact-icon{
+    margin-right: 10px;
+}
